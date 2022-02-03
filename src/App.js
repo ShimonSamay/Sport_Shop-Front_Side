@@ -11,6 +11,7 @@ import ShirtsProvider from "./Contexts/Shirts-Context";
 import Shirts from "./Components/Shirts-Component/Shirts-Component"
 import ClothingProvider from "./Contexts/Clothing-Context";
 import Clothing from "./Components/Clothing-Components/Clothing-Component";
+import ShoesInfo from "./Components/Shoes/Shoes";
 
 function App() {
   // let [shoesData, setshoesData] = useState([]);
@@ -22,6 +23,7 @@ function App() {
 
   return (
     <div className="App">
+     <ShoesInfo/>
 
       {/* <ShoesProvider>
         <Shoes/>
